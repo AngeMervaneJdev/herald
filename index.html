@@ -36,6 +36,14 @@
     <link rel="shortcut icon" href="assets/icon/icon_logo.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/icon_logo2.png">
 
+    <style>
+        @media(max-width: 800px) {
+        .btn-menu-1{
+        width: 100%;
+        display: none;
+  }
+}
+    </style>
     <!--[if lt IE 9]>
         <script src="javascript/html5shiv.js"></script>
         <script src="javascript/respond.min.js"></script>
@@ -87,19 +95,16 @@
                                 </li>
 
                                 <li class="menu-item menu-item-has-children" >
-                                    <a class="" href="#" style="background-color: rgb(44, 44, 202);color:white;">Mon Compte</a>
+                                    <a class="btn btn-menu-1" href="#" style="background-color: rgb(44, 44, 202);color:white;">Mon Compte</a>
                                     
                                 </li>
                                 <li class="menu-item menu-item-has-children" >
-                                    <a class="" href="#" style="background-color: rgb(44, 44, 202);;color:white;">+ S'inscire</a>  
+                                    <a class="btn btn-menu-1" href="#" style="background-color: rgb(44, 44, 202);;color:white;">+ S'inscire</a>  
                                 </li>
                             
                             </ul>
                         </nav><!-- /#main-nav -->
-                        <div id="header-get-a-quote">
-                            <a href="contact.html" class="header-get-a-quote-icon">Get A Quote</a>
-                            <!-- <button class="header-get-a-quote-icon" >Get a Quote</button> -->
-                        </div><!-- /#header-get-a-quote -->
+  
                     </div><!-- /.wrap-inner -->                    
                 </div><!-- /#site-header-inner -->
             </header><!-- /#site-header -->
@@ -409,15 +414,15 @@
                             
                         </div>
                             
-                        <div class="col-md-4>
+                        <div class="col-md-4">
 
-                        <div class="widget widget_services">
-                            <h3 class="widget-title margin-bottom-30">Services</h3>
-                            <ul class="service-list">
-                                <li><a href="service-detail.html">Conditions</a></li>
-                                <li><a href="service-detail.html">Termes d'utilisation</a></li>
-                            </ul>
-                        </div>
+                            <div class="widget widget_services">
+                                <div class="content">
+                                    <h3>Services</h3>
+                                    <a href="#">Conditions</a><br>
+                                    <a href="#">Termes d'utilisation</a>
+                                </div> 
+                            </div>
 
                        </div>
 
@@ -506,4 +511,5 @@
 
 </body>
 </html>
+
 
